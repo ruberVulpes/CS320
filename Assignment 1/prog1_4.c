@@ -10,11 +10,10 @@
 		double stepSize;
 		double degrees = 0;
 		double radians = 0;
-		printf("Assignment #4, William Fox, wfox96@gmail.com\n");
 		sscanf(argv[1], "%lf", &size);
 		sscanf(argv[2], "%lf", &stepSize);
 	    //Prints out the degrees that the program will evaluate at
-		for( i = 0; i < size; i++){	
+		for( i = 0; i < size; i++){
 			printf("%0.2lf ", degrees);
 			degrees += stepSize;
 		}

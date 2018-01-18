@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo "Assignment #3-2, William Fox, wFox96@gmail.com"
-
 #I needed to add this to run the encrpytor
 chmod +x encryptor
 

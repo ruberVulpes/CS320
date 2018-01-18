@@ -7,7 +7,7 @@ This is a collection of bash shell scripts that will find a student who has rece
 ---
 
 ## Descriptions of programs
-*All programs will output my ID String*
+~~All programs will output my ID String~~
 
 ### prog2_1.sh
 

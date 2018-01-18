@@ -4,10 +4,9 @@
 	int main(){
 		double userInput;
 		double hcosValue;
-		printf("Assignment #1-3, William Fox, wfox96@gmail.com\n");
 		printf("Please input an integer:\n");
 		scanf("%lf",&userInput);
 		userInput = ((userInput * PI)/180); //Converts Input into degrees
 		hcosValue = cosh(userInput);    //Gets the Hyperbolic Cos Value
 		printf("%0.3lf\n",hcosValue);
-	}	
+	}

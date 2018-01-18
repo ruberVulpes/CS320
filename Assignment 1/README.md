@@ -3,7 +3,7 @@
 ## General Description
 
 This is a collection of basic C programs, the first three use standard in/out and the last utilizes command line arguments for input.  
-All programs will output my title string.
+~~All programs will output my title string~~
 
 ## Descriptions of Programs
 
@@ -38,18 +38,18 @@ Value of Cosine:..............`1.0 0.97 0.87 0.71 0.50`
 
 ### How to compile and run the two programs in Linux terminal
 1. Have source file in active directory
-2. type `gcc prog1_1.c` and hit enter (For program 2 replace prog1_1.c with prog1_2.c) 
+2. type `gcc prog1_1.c` and hit enter (For program 2 replace prog1_1.c with prog1_2.c)
 3. type `./a.out` and hit enter
 4. enter any information if prompted
-    
+
 ### How to compile and run the third program in Linux terminal
 1. Have source file in active directory
-2. type `gcc prog1_3.c -lm` and hit enter (-lm is needed for math.h) 
+2. type `gcc prog1_3.c -lm` and hit enter (-lm is needed for math.h)
 3. type `./a.out` and hit enter
 4. enter any information if prompted
-    
+
 ### How to compile and run the fourth program in Linux terminal
 1. Have source file in active directory
-2. type `gcc prog1_3.c -lm` 
+2. type `gcc prog1_3.c -lm`
 3. type `./a.out <number of elements> <step size in degrees>` and hit enter
   * An Example of running `prog1_4.c` can be found in the prog1_4.c description

@@ -7,7 +7,7 @@ This is a collection of bash scripts and a few C programs that will find a user'
 ---
 
 ## Descriptions of programs
-*All scripts will output my ID String*
+~~All scripts will output my ID String~~
 
 ### prog3_1.sh
 

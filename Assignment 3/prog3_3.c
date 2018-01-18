@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-//Assignment #3-3, William Fox, wFox96@gmail.com 
 int main(int argc, char *argv[]){
 
 	int offset;
@@ -9,7 +8,7 @@ int main(int argc, char *argv[]){
 	char letter;
 	int i;
 	int length;
-	
+
 	offset = atoi(argv[1]);
 	// Pulls In cipherText also changes the delimiter to newline
 	scanf("%[^\n]s", cipherText);
@@ -20,17 +19,17 @@ int main(int argc, char *argv[]){
 		//Does Nothing to pereserve spaces
 	}else if( cipherText[i] < (65+offset)){
 		//To close to start of alphabet
-		cipherText[i] += (26-offset);	 
+		cipherText[i] += (26-offset);
 	}else if( cipherText[i] > 96 && cipherText[i] < (97+offset)){
-		//To close to start of lower alphabet and don't want to ruin caps 
-		cipherText[i] += (26-offset);	 	
+		//To close to start of lower alphabet and don't want to ruin caps
+		cipherText[i] += (26-offset);
 	}else{
 		//I'm still afraid I'm going to break this so I'm leaving this in
 		//letter = cipherText[i];
 		//letter -= offset;
 		cipherText[i] -= offset; //used to be = letter
 	}
-}	
+}
 	printf("%s\n", cipherText);
 
 }

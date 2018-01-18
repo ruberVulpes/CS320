@@ -1,4 +1,4 @@
-print("Assignment #4-2, William Fox, wfox96@gmail.com")
+
 for i=1,100
 do
 	if(i % 15 == 0)

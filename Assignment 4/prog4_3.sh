@@ -1,5 +1,4 @@
 #!/bin/bash
-echo "Assignment #4-3, William Fox, wfox96@gmail.com"
 gcc prog4_1.c -o prog4_1 -l lua -l m -l dl -L lua-5.3.3/src/ -I lua-5.3.3/src/
 
 correct=`cat $2`

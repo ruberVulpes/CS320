@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo "Assignment #3-3, William Fox, wFox96@gmail.com"
 
 offset=$1
 

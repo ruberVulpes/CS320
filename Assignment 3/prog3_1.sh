@@ -1,12 +1,11 @@
 #!/bin/bash
 
-echo "Assignment #3-1, William Fox, wfox96@gmail.com"
-# Makes the code more readible
+
 # These just rename the cmd line args
 passwordFile=$1
 targetServer=$2
 employeeName=$3
-# This was so I didn't have to type the expected cmd args every time, 
+# This was so I didn't have to type the expected cmd args every time,
 # they're left incase I break something before turn in
 #passwordFile="Logins"
 #targetServer="sd.lindeneau.com"
@@ -20,7 +19,7 @@ password=`grep -i "$employeeName" $passwordFile`
 password=${password##*,}
 
 #Grabs encrptor and all .enc files from the target server
-expect -c "	
+expect -c "
 		log_user 0
 		set timeout 1
 		spawn scp ${username}@${targetServer}:encryptor .

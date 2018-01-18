@@ -7,7 +7,7 @@ This is a collection of a few programs and a shell script. The first is a Lua in
 ---
 
 ## Descriptions of programs
-*All scripts and programs will output my ID String*
+~~All scripts and programs will output my ID String~~
 
 ### prog4_1.c
 
